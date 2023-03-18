@@ -59,7 +59,6 @@ export default function App() {
   const [img, setImg] = useState("");
   const [description, setDescription] = useState("");
   return (
-    <div>
       <div className="main">
         <Typography
           className="heading"
@@ -130,7 +129,6 @@ export default function App() {
           >
             Add Pokemon
           </Button>
-        </div>
       </div>
       <Switch>
         <Route exact path="/">
